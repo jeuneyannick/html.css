@@ -1,0 +1,135 @@
+<!Doctype html>
+<!-- DOCTYPE est le première balise obligatoire dans une page HTML : elle désigne le type de document pour le navigateur, ici.html -->
+<html lang="fr">
+     <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- viewport= attribut pour l'adaptation du site aux tailles de l'écran et le rangement du site de l'utilisateur, pour le responsive-->
+          <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- edge = internet explorer-->
+
+
+          <title>Première page HTML</title>
+          <!-- title= désigne le titre de notre page et va s'afficher dans l'onglet de la page -->
+
+     </head>
+  <!-- ceci est un commentaire ( Atom => ctrl + /) -->
+  <!-- dupliquer une ligne (Atom => ctrl + maj + d) -->
+
+
+
+        <body>
+      <!-- Corps de la page-->
+      C'est ma première web! le navigateur affiche le texte, les images...contenus dans le bloc de ma balise &lt;body>
+
+      <!-- Les titres -->
+      <h1>Titre h1 </h1>
+      <h2>Titre h1 </h2>
+      <h3>Titre h3 </h3>
+      <h4>Titre h4 </h4>
+      <h5>Titre h5 </h5>
+      <h6>Titre h6 </h6>
+      <p> Ceci est un paragraphe. </p>
+      <p>Les paragraphes sont délimités par la balise &lt;p>.</p>
+
+    <!-- paragraphe préformaté-->
+    <pre>Les numériques de VLG</pre>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        <br />Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <br />Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <!-- La disposition-->
+    <p style="text-align:alright">Ce paragraphe sur deux<br /> lignes est disposé à droite.
+    <p style="text-align: center">Ce paragraphe sur deux<br /> lignes est disposé au centre.</p>
+    <p style="text-align: left">Ce paragraphe sur deux<br /> lignes est disposé à gauche.</p>
+    <p style="text-align: justify">Ce paragraphe est justifié aligné à droite et à gauche. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <br />
+    Ce paragraphe est justifié :
+
+    <p>
+        Voici la structure de base d'une page HTML:<br />
+        &lt;!DOCTYPE html><br />
+        &lt;html><br />
+        &lt;head><br />
+            &lt;title>&lt;/title<br />
+        &lt;head><br />
+
+          &lt;body><br /><br />
+          &lt;/body><br />
+
+
+        &lt;/html>
+    </p>
+    <p>
+    quel est le role de ma balise &lt;hr />
+
+    <hr />
+    <p>
+        Elle insère une ligne séparatrice de ma page HTML.<br />Elle est auto-fermante (ou orpheline)...à ne pas confondre avec la balise &lt;br/>
+        est effectue un retour à la ligne
+    </p>
+
+    <!-- La mise en valeur-->
+    <!-- STRONG -->
+    <p>
+        Bonjour, ceci est mon premier fichier en html alors <em> soyez indulgents </em> SVP !
+    </p>
+
+    <!-- MARK fait ressortir visuellement une portion de texte-->
+    <p>
+        Bonjour, ceci est premier fichier en html alors <mark> soyez indulgents </mark> SVP !
+    </p>
+
+    <!-- Les listes-->
+    <!-- non ordonnée (à puces) -->
+    <ul>
+        <li>Chat</li>
+        <li>Chien</li>
+        <li>Cheval</li>
+    </ul>
+
+    <!-- ordonnée (numérotée)-->
+    <ol>
+        <li>Chat</li>
+        <li>Chien</li>
+        <li>Cheval</li>
+    </ol>
+
+    <!-- les couleurs-->
+    <p style="color:crimson">H</p>
+    <p style="color:lightseagreen">T</p>
+    <p style="color:darkgreen">M</p>
+    <p style="color:navy">L</p>
+    <br />
+    <p style="color:#D4B6C5">H</p>
+    <p style="color:#FF67A8">T</p>
+    <p style="color:#FF002B">M</p>
+    <p style="color:#000080">L</p>
+
+
+   <!--La couleur du fond-->
+   <p style="background-color:cyan">Bonjour</p>
+   <p style="background-color:pink">Bonjour</p>
+   <p style="background-color:black; color:yellow">Bongiourno</p>
+
+   <!--Les liens-->
+         <!-- Pour charger un fichier -->
+         <link rel="stylesheet" href="css/style.css" type="text/css" />
+         <!-- Pour accéder à une URL (site web)-->
+         <a href="https://openclassrooms.com/"> Openclassroom
+         </a>
+
+
+   <!--Les images-->
+
+         <img src="../../arbo/lib/img/chat/parrain.jpg">
+         <img src="../../arbo/lib/img/chat/bengal.png"
+
+
+
+
+
+
+       </body>
+</html>
