@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style_formulaire.css">
+</head>
+<body>
+     <!-- je déclare mon formulaire  avec la balise form-->
+     <form>
+        <!-- texte-->
+        <label for="pseudo">Pseudo *</label>
+        <input id="pseudo" type="text" name="pseudo" placeholder="yannick"required><br />
+        <!-- mot de passe-->
+        <label for="mdp">Mot de passe *</label>
+        <input type="password"name="mdp" placeholder="mot de passe"required><br />
+        <!-- email-->
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="email"><br />
+        <!-- fichier-->
+        <label for="Photo">Photo</label>
+        <input type="file" name="photo"><br />
+        <!-- cases à cocher-->
+        <label for="question">Quel parfum préférez-vous ?</label>
+              <p>
+                <!-- avec checked on coche une case par défaut-->
+                <input type="checkbox" name="question">Bois d'argent
+                <input type="checkbox" name="question">Black XS
+                <input type="checkbox" name="question">One Million
+                <!-- zone de texte-->
+                <label for="commentaire">Commentaire</label>
+                <textarea name="Commentaire" rows="8" cols="80"></textarea><br />
+             </p>
+             <!-- bouton envoi du formulaire-->
+             <input type="submit" name="inscription" value="Envoyer">
+             <!-- bouton pour vider le formulaire-->
+             <input type="reset" name="annuler" value="annuler">
+
+
+
+
+
+
+
+</body>
+</html>

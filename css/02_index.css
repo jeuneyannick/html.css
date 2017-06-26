@@ -1,0 +1,36 @@
+/*commentaire en CSS */
+
+
+body {
+    background:#377570;
+}
+header {
+    background-color: #0e2609;
+    color: #b5b5b5;
+    height: 45px;
+}
+nav {
+    background-color:#266984;
+    height:55px;
+
+}
+section {
+    background-color: #2d2727;
+}
+footer {
+    background-color:#434c48;
+    height:55px;
+}
+nav,footer{
+    color: #a93226;
+}
+.jaune{
+    background-color: yellow;
+}
+/*je cible un id avec un dièse devant*/
+#noir{
+    background-color:black;
+    color:#fff;
+    text-align:justify;
+    font-size:25px;
+}
