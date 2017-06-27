@@ -1,6 +1,11 @@
 body{
-    background-color: green;
+
     font-size:25px;/*taille de police:25 pixels*/
+}
+h1
+{
+    background-color: darkslategray;
+    color: white;
 }
 section p  {
         color:black;/*tous les <p> à l'intérieur de la balise<section>*/
@@ -20,4 +25,28 @@ section p:nth-child(odd){
 }
 section p:nth-child(5), section p:nth-child(9){
     color: blue; /*les <p> 3 et 10 */
+}
+.zone1{/*CLASS donc avant son nom je mets .*/
+    color:#dc143c;
+}
+.zone2{
+    color:#008080;
+}
+.lime{
+    color:#00ff00;
+}
+#zone3{/*ID donc avant son nom je mets # */
+    background-color: #f5deb3;
+}
+#zone3:after {/* rajouter contenu après l'ID */
+    content: "rajouté après";
+}
+#Zone3:before {/*rajouter cntenu après l'ID zone3 */
+    content:"rajouté avant";
+    background-color:cyan;
+
+}
+li:nth-child(2){
+    background-color: darkred;
+    color:white;
 }
