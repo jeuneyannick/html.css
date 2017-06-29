@@ -1,0 +1,62 @@
+
+
+#conteneur{
+    margin: auto;
+    width:50%;
+}
+section{
+    background-color: pink;
+    height:500px;
+
+
+}
+header{
+    background-color: purple;
+    height:120px;
+}
+footer{
+    background-color: pink;
+    height:140px;
+}
+nav{
+    background-color: grey;
+    height: 80px;
+}
+.a,.b,.c,.d,.e,.f,.h,.g{
+
+    height:200px;
+    float:left;
+}
+.a, .c, .e, .g{
+    width:25%;
+}
+
+.b, .f{
+    width: 50%;
+}
+.d{
+    width: 100%;
+}
+.a{
+    background-color: blue;
+}
+.c{
+    background-color: red;
+}
+.e{
+    background-color: orange;
+}
+
+.g{
+    background-color: green;
+}
+
+.f{
+    background-color: white;
+}
+.b{
+    background-color: white;
+}
+.clear{
+    clear:both;
+}
