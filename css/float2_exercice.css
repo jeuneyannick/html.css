@@ -1,19 +1,32 @@
 body{
     background-color: gray;
 }
-.premier, .deux, .trois, .quatre,{
+.vert, .bleu, .vertpale, .rougepale, .rouge, .blanc{
     width:50px;
     height:50px;
     text-align: center;
-    border-radius:40px;
-    border: 9px double pink;
+    padding: 4px;
+    margin: 3px;
+
+    border: 8px  black;
+    background-color: white;
     float:left;
-    background-color: green;
 }
-.deux{
+.bleu{
+  width:60px;
+  text-align: center;
+  border-radius:20px;
+  margin: 2 px;
+  border: 4px  black;
+  float:left;
     background-color: cyan;
 
 }
+.vertpale{
+  background-color:;
+  border-radius: 50px;
+}
+
 .clear{
     clear:both;
 }
