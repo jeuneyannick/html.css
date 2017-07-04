@@ -1,0 +1,25 @@
+body{
+    background-color: grey;
+    font-family: 'Cormorant Garamond', serif;
+}
+div#contenu{
+    text-align: center;
+    margin: 0;
+}
+header{
+    margin: 20px;
+    padding:0;
+
+}
+.image1{
+    float:right;
+    text-align:right;
+}
+.partie0{
+    float:left;
+    text-align: left;
+}
+.partie1{
+    
+
+}
