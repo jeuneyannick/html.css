@@ -1,0 +1,11 @@
+body{
+    background-color: #74ccc6;
+    font-family: 'Hammersmith One', sans-serif;
+    width:65%;
+    height:75%;
+
+}
+header{
+    background-image:url("../cesoir_integration_2/img/planches.jpg");
+    height:400px;
+}
