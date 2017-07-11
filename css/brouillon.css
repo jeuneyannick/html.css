@@ -1,3 +1,12 @@
+body{
+    background: #2da9a3
+}
+#conteneur{
+    width:70%;
+    margin: 0 auto;
+    background-color: white;
+}
+
 /*----- HEADER-------*/
 @import url('https://fonts.googleapis.com/css?family=Caveat+Brush');
 header{
@@ -87,6 +96,7 @@ i{
         }
 /*----- FIN HEADER-----*/
 h2{
+    margin-top: 61px;
     text-transform: uppercase;
     font-size: 40px;
     font-family: sans-serif;
@@ -108,9 +118,7 @@ section > section { /*je cible le 1er enfant <section> du parent <section>*/
           height:820px;
           text-align: center;
           }
-section p, section h2{
-    padding: 0 15%;
-}
+
 .pBloc-left, .pBloc-right{
     display: inline-block;
     vertical-align: middle;
@@ -120,6 +128,7 @@ section p, section h2{
     width: 40%;
     overflow: visible;
     position: relative;
+    margin-top: -133px;
 }
 .pBloc-right{
     width: 60%;
@@ -142,10 +151,10 @@ section p, section h2{
     width: 70%;
 }
 #soap{
-    height: 900px;
+    height: 681px;
 }
 #drink{
-       height:755px;
+       height:529px;
 }
 .txtRose{
     color: #e56f6f;
@@ -159,8 +168,9 @@ section p, section h2{
 #drink .pBloc-left img{
     position: relative;
     top: 70px;
-    z-index: -1;/*position sur l'axe vertical - gère l'empilement de 2 ou plusieurs éléments*/
+    /*position sur l'axe vertical - gère l'empilement de 2 ou plusieurs éléments*/
 }
+
 #eggs {
     width: 100%;
 }
@@ -174,6 +184,7 @@ footer > div{
 footer{
     padding: 150px 0;
     background-image:url('../cesoir_integration_2/img/pattern.jpg');
+    margin-top: -28px;
 }
 footer p{
     font-family: sans-serif;
@@ -184,7 +195,8 @@ footer p{
 #social ul{
     float:right;
     margin-right: 50px;
-    padding-left: 65vw;
+    padding-left: 54vw;
+    display:inline-block;
 }
 #social li{
     display:inline-block;
