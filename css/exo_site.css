@@ -1,0 +1,16 @@
+body{
+  background-image: URL(../img/arab_tile.png);
+}
+header{
+  background:#FDFCE0;
+  font-family: 'Bellefair', serif;
+  text-align: center;
+}
+main{
+  background:#B1AD25;
+}
+section{
+  background: darkslategray;
+  font-family: 'Zilla Slab', serif;
+  
+}

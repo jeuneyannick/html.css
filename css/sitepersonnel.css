@@ -1,0 +1,36 @@
+body{
+  background-image: url('../img/arab_tile.png');
+  font-family: 'Palanquin Dark', sans-serif;
+}
+nav ul{
+  list-style-type: none;
+  right:0;
+  display:inline-block;
+}
+#conteneur{
+  width: 845px;
+  margin:auto;
+  background: darkslategray;
+}
+.partie{
+  width:200px;
+  border: 1px solid white;
+  display:inline-block;
+}
+.p1{
+  background: gray;
+}
+.p2{
+  background: purple;
+}
+.p3{
+  background: white;
+}
+.p4{
+  background: yellow;
+}
+.bloc{
+
+  background: paleturquoise;
+  border box-sizing;
+}
