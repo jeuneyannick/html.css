@@ -1,0 +1,52 @@
+#conteneur{
+    width:960px;
+    background:paleturquoise;
+    color:white;
+    margin: 0 auto;
+}
+header{
+    background:tan;
+    height:60px;
+    text-align:center;
+    line-height:60px;
+}
+nav{
+    background:darkslategray;
+    height:60px;
+    line-height:60px;
+}
+section{
+    margin:10px;
+    height:500px;
+    background:gray;
+}
+.grand{
+    border: 1px solid;
+    float:left;
+    height:248px;
+    width:468px;
+}
+.petit {
+    border:1px solid;
+    float:left;
+    height:122px;
+    text-align:center;
+    width:232px;
+}
+.c1{
+    background:peachpuff;
+}
+.c2{
+    background:#7a9eb1;
+}
+.c3{
+    background: #415865
+}
+.c4{
+    background:#ffe1b3;
+}
+footer{
+    background: silver;
+    height:70px;
+    line-height:70px;
+}
