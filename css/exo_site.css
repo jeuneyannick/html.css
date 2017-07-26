@@ -48,7 +48,7 @@ main{
 }
 aside{
 	background:chocolate;
-	width:30%;
+	width:25%;
 	height:100%;
 	float:left;
 }
@@ -61,7 +61,7 @@ footer,#bas{
 	height:60%;
 	float:left;
 	background:peru;
-	width:70%;
+	width:75%;
 }
 #partie1 .Gauche{
 	width:50%;
