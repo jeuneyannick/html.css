@@ -1,16 +1,89 @@
+*{
+	box-sizing:border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
 body{
-  background-image: URL(../img/arab_tile.png);
+  margin:0 auto;
+  width:75%;
+  height:80%;
+  background-image:url(../img/arab_tile.png);
 }
 header{
-  background:#FDFCE0;
-  font-family: 'Bellefair', serif;
-  text-align: center;
+  background:wheat;
+  text-align:center;
+  margin:0 auto;
+  height:150px;
+}
+nav{
+  height:70px;
+  background:darkgoldenrod;
+  padding:0;
+  margin:0;
+  text-align:center;
 }
 main{
-  background:#B1AD25;
+	background: saddlebrown;
+	height:800px;
+	margin:0 auto;
 }
-section{
-  background: darkslategray;
-  font-family: 'Zilla Slab', serif;
-  
+aside{
+	background:chocolate;
+	width:30%;
+	height:100%;
+	float:left;
+}
+footer,#bas{
+	background:burlywood;
+	height:120px;
+	width:100%;
+}
+#partie1 {
+	height:60%;
+	float:left;
+	background:peru;
+	width:70%;
+}
+#partie1 .Gauche{
+	width:50%;
+	height:100%;
+	background:brown;
+	float:left;
+}
+#partie1 .Droite{
+	width:50%;
+	height:100%;
+	background:maroon;
+	float:left;
+}
+#bas .carreun{
+	background:rosybrown;
+	width:25%;
+	height:100%;
+	float:left;
+}
+#bas .carredeux{
+	background:sandybrown;
+	width:25%;
+	height:100%;
+	float:left;
 }
