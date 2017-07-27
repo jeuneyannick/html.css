@@ -1,38 +1,54 @@
 #bleuclair{
     background: #53dbbb;
     margin:auto;
-
+    color:white;
+    width:944px;
+    text-align: center;
 
 }
-header h1{
+header {
+    background:green;
+    height:62px;
+    line-height: 62px;
+}
+nav{
+    background:darkslategray;
+    height:60px;
+    line-height:60px;
+}
+section{
+    height:380px;
+    margin:2px;
+
+}
+.groscarre{
+    border: 1px solid;
+    float:left;
+    height:188px;
+    width:468px;
+    background: blue;
+}
+.carre{
+    border: 1px solid;
+    float:left;
+    height: 92px;
+    width: 232px;
+    line-height:92px;
+}
+.c1{
+    background:pink;
+}
+.c2{
+    background:yellow;
+}
+.c3{
+    background:red;
+}
+.c4{
     background:green;
 }
-#groscarre{
-  background: blue;
-  width: 50%;
-  border: 2px;
-  height: 200px;
-
-}
-#groscarre2{
-   background: yellow;
-   width: 50%;
-   height: 200px;
-   float:right;
-   display:inline-block;
-
-}
-#groscarre3{
-  background: red;
-  width: 50%;
-  border: 2px;
-  height: 200px;
-  display: inline-block;
-}
-#groscarre4{
-  background: green;
-  width: 50%;
-  border: 2px;
-  height: 200px;
-  float:right;
+footer{
+    background: silver;
+    height:62px;
+    line-height:62px;
 }

@@ -52,13 +52,20 @@ aside{
 	height:100%;
 	float:left;
 }
-footer,#bas{
+footer{
 	background:burlywood;
 	height:120px;
 	width:100%;
 }
+#partie3{
+	height:33.3%;
+	float:left;
+}
+.clear{
+	clear:both;
+}
 #partie1 {
-	height:60%;
+	height:33.3%;
 	float:left;
 	background:peru;
 	width:75%;
@@ -69,19 +76,23 @@ footer,#bas{
 	background:brown;
 	float:left;
 }
+#partie2{
+	height:33.3%;
+	float:left;
+}
 #partie1 .Droite{
 	width:50%;
 	height:100%;
 	background:maroon;
 	float:left;
 }
-#bas .carreun{
+#partie3 .carreun{
 	background:rosybrown;
 	width:25%;
 	height:100%;
 	float:left;
 }
-#bas .carredeux{
+#partie3 .carredeux{
 	background:sandybrown;
 	width:25%;
 	height:100%;
